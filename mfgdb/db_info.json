@@ -1,0 +1,13 @@
+{
+    "MandatoryColumns" :[
+        "SerialNumber",
+        "RobotModel",
+        "FinalAssemblyNumber",
+        "FinalAssemblyRevision",
+        "FirmwareVersion",
+        "GUID",
+        "Operator",
+        "Date",
+        "Time"
+    ]
+}
