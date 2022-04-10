@@ -4,6 +4,7 @@
         "prereq",
         "rover_ros_subsystem_files",
         "ds4",
+        "rover_udev",
         "roverrobotics_ros1",
         "rover_test_repo",
         "catkin_make",
