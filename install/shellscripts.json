@@ -87,20 +87,7 @@
                 "fi"
             ],
             "install_ds4_driver": [
-                "mkdir -p ~/drivers",
-                "cd ~/drivers",
-                "git clone $KEY_DS4_DRV ds4drv",
-                "cd ds4drv",
-                "mkdir -p ~/.local/lib/python2.7/site-packages",
-                "python2 setup.py install --prefix ~/.local",
-                "sudo cp -rf udev/50-ds4drv.rules /etc/udev/rules.d/",
-                "sudo udevadm control --reload-rules && sudo udevadm trigger",
-                "if [ -f ~/.local/bin/ds4drv ]",
-                "then",
-                "    echo \"install_ds4_driver: Success\" >> $KEY_VERIFICATION_FILE",
-                "else",
-                "    echo \"install_ds4_driver: Failure\" >> $KEY_VERIFICATION_FILE",
-                "fi"
+                "sudo pip install ds4drv"
             ]
         }
     ],
